@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  height: 100dvh;
+}
+
+.questions {
+  display: flex;
+  justify-content: space-between;
+  background-color: whitesmoke;
+  padding: 15px 10px;
+  margin: 10px 0px;
+  border-bottom: 2px solid lightgreen;
+  border-radius: 4px;
+}
+
+.answers {
+  padding: 5px 10px;
+  background-color: darkgreen;
+  color: white;
+  opacity: 1;
+}
+
+.hidden {
+  opacity: 0;
+}

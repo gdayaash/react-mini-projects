@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  height: 80vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.stepBox,
+.countBox {
+  display: "flex";
+  justify-content: space-between;
+  width: 500px;
+  gap: 12px;
+}
+
+.btn {
+  background-color: black;
+  color: #fff;
+  font-size: 14px;
+  padding: 6px 10px;
+  margin: 0px 5px;
+  border-radius: 15px;
+  cursor: pointer;
+}

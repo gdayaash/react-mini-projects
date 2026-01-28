@@ -1,0 +1,15 @@
+.stepBox,
+.countBox {
+  display: "flex";
+  justify-content: space-between;
+  width: 200px;
+  gap: 12px;
+}
+
+.btn {
+  background-color: black;
+  color: #fff;
+  font-size: 14px;
+  padding: 5px;
+  cursor: pointer;
+}
